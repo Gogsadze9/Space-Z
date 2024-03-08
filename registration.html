@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive registration form</title>
+    <!--my css link-->
+    <link rel="stylesheet" href="registration.css">
+<!--ne added fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="main">
+        <h1 class="title">Registration form</h1>
+        <form action="#">
+<div class="main-box">
+<div class="input-box">
+        <span class="text">Full name</span>
+        <input type="text" placeholder="Place enter your" required>
+</div>
+<div class="input-box">
+         <span class="text">username</span>
+         <input type="text" placeholder="Place enter your" required>
+</div>
+<div class="input-box">
+        <span class="text">Email</span>
+        <input type="email" placeholder="email" required>
+    </div>            
+<div class="input-box">
+        <span class="text">Phone number</span>
+        <input type="number" placeholder="Phone number" required>
+</div>
+<div class="input-box">
+        <span class="text">Password</span>
+        <input type="password" placeholder="Place enter your" required>
+</div>
+<div class="input-box">
+        <span class="text">Confirm Password</span>
+        <input type="password" placeholder="Confirm your password" required>
+</div>
+</div>
+
+<div class="container">
+     <input type="radio" name="gender" id="circle-1">
+     <input type="radio" name="gender" id="circle-2">
+     <input type="radio" name="gender" id="circle-3">
+    <span class="gender">gender</span>
+<div class="category">
+        <label for="circle-1">
+            <span class="circle one"></span>
+            <span class="male">male</span>
+        </label>
+
+        <label for="circle-2">
+            <span class="circle two"></span>
+            <span class="male">female</span>
+        </label>
+
+        <label for="circle-3">
+            <span class="circle three"></span>
+            <span class="male">alien</span>
+        </label>
+</div> 
+</div>
+
+<div class="btn">
+     <input type="submit" value="Register">
+</div>
+        </form>
+    </section>
+
+    
+</body>
+</html>
